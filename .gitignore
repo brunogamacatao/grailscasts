@@ -1,0 +1,7 @@
+*.class
+*.log
+*/.settings/
+*/target/
+*/web-app/WEB-INF/classes/
+*.jasper
+
