@@ -1,0 +1,41 @@
+#controllerList {
+	border: 1px solid black;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+}
+
+#controllerList h2 {
+	background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+}
+
+.controller {
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: 0 .4em;
+	padding: 130px 0 0 0px;
+	width: 128px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	margin: 5px;
+}
+
+.product { 
+	background-image: url(../images/product_icon.png);
+}
+
+.manufacturer { 
+	background-image: url(../images/manufacturer_icon.png);
+}
+
+.controller:hover{
+	margin: 4px;
+	border: 1px solid black;
+	background-color: #DDD;
+}
+
+.clear {
+	clear: both;
+}
